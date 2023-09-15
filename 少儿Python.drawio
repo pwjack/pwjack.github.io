@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2023-09-15T02:23:04.279Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.2" etag="Iqw41G7-LyX_OE6TNxNR" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-15T08:46:31.589Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="_Lu0pg_dXzeHod7E3n-A" version="21.6.2" type="github">
   <diagram name="第 1 页" id="xtgbMjCuqB86nOu49VHy">
-    <mxGraphModel>
+    <mxGraphModel dx="913" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MgMEG1C3H35usyF8qfio-1" value="" style="image;html=1;image=img/lib/clip_art/computers/MacBook_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="726" y="112.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MgMEG1C3H35usyF8qfio-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MgMEG1C3H35usyF8qfio-2" target="MgMEG1C3H35usyF8qfio-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MgMEG1C3H35usyF8qfio-2" value="" style="image;html=1;image=img/lib/clip_art/people/Suit_Man_Blue_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="11" y="107.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MgMEG1C3H35usyF8qfio-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MgMEG1C3H35usyF8qfio-5" target="MgMEG1C3H35usyF8qfio-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MgMEG1C3H35usyF8qfio-5" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;0&amp;nbsp; 1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="596" y="117.5" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MgMEG1C3H35usyF8qfio-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MgMEG1C3H35usyF8qfio-7" target="MgMEG1C3H35usyF8qfio-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MgMEG1C3H35usyF8qfio-7" value="&lt;pre style=&quot;margin: 0px; overflow-wrap: initial; background: rgb(246, 246, 246); border-radius: 4px; font-size: 0.9em; overflow: auto; padding: calc(0.888889em); word-break: initial; color: rgb(18, 18, 18); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;code class=&quot;language-text&quot; style=&quot;background-color: inherit; border-radius: 0px; font-family: Menlo, Monaco, Consolas, &amp;quot;Andale Mono&amp;quot;, &amp;quot;lucida console&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: inherit; margin: 0px; padding: 0px;&quot;&gt;data segment ;数据段&#xa;    string db &#39;Hello,World!$&#39;&#xa;data ends&#xa;code segment ;代码段&#xa;assume cs:code,ds:data&#xa;start:&#xa;    mov ax,data ;获取段基址&#xa;    mov ds,ax ;将段基址送入寄存器&#xa;    mov dx,offset string&#xa;    mov ah,9&#xa;    int 21h&#xa;    mov ah,4ch&#xa;    int 21h&#xa;code ends&#xa;end start&lt;/code&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="321" y="30" width="240" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="MgMEG1C3H35usyF8qfio-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MgMEG1C3H35usyF8qfio-9" target="MgMEG1C3H35usyF8qfio-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MgMEG1C3H35usyF8qfio-9" value="&lt;span style=&quot;border: 0px; margin: 0px; padding: 0px; font-family: Menlo, Monaco, Consolas, &amp;quot;Andale Mono&amp;quot;, &amp;quot;lucida console&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; color: green; font-weight: bold;&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;border: 0px; margin: 0px; padding: 0px; font-family: Menlo, Monaco, Consolas, &amp;quot;Andale Mono&amp;quot;, &amp;quot;lucida console&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; color: olive;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;border: 0px; margin: 0px; padding: 0px; font-family: Menlo, Monaco, Consolas, &amp;quot;Andale Mono&amp;quot;, &amp;quot;lucida console&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; color: rgb(170, 17, 17);&quot;&gt;&#39;Hello World!&#39;&lt;/span&gt;&lt;span style=&quot;border: 0px; margin: 0px; padding: 0px; font-family: Menlo, Monaco, Consolas, &amp;quot;Andale Mono&amp;quot;, &amp;quot;lucida console&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; color: olive;&quot;&gt;)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="135" width="170" height="25" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
